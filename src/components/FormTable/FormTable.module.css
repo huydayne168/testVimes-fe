@@ -1,0 +1,20 @@
+.form-table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.form-table td,
+.form-table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.form-table input {
+    width: 100%;
+}
+
+.form-table input.sm-input {
+    width: 60px;
+}

@@ -1,0 +1,30 @@
+import { BoPhan } from "./BoPhan";
+import { DonVi } from "./DonVi";
+import { FormTableData } from "./FormTableData";
+import { Kho } from "./Kho";
+import { NhanSu } from "./NhanSu";
+
+export type FormData = {
+    id: string;
+    donVi: DonVi;
+    boPhan: BoPhan;
+    thoiGian: string;
+    so: number;
+    no: number;
+    co: number;
+    theo: string;
+    theoSo: number;
+    ngay: number;
+    thang: number;
+    nam: number;
+    cua: string;
+    kho: Kho;
+    tableData: FormTableData[];
+    tong: number;
+    tongSoTienVietBangChu: string;
+    soChungTuGoc: number;
+    nguoiLapPhieu: NhanSu;
+    nguoiGiaoHang: NhanSu;
+    thuKho: NhanSu;
+    keToanTruong: NhanSu;
+};
